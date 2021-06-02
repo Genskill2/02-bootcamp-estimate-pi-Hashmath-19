@@ -20,6 +20,7 @@ def monte_carlo(m):
         if d<1:
             circle+=1
             square+=1
+        j+=1 
     pi=float(4*(circle/square))
     return pi
 
